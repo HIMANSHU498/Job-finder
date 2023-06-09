@@ -1,0 +1,84 @@
+.loginpage-container {
+  display: flex;
+}
+.login-box {
+  position: relative;
+  width: 55vw;
+  height: 100vh;
+}
+.login-banner {
+  width: 45vw;
+  height: 100vh;
+  position: relative;
+}
+.login-banner img {
+  position: absolute;
+  width: 45vw;
+  height: 100vh;
+}
+.banner-title {
+  position: absolute;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 144.02%;
+  /* identical to box height, or 58px */
+
+  left: 10vw;
+  top: 8vh;
+  color: #ffffff;
+}
+.login-content {
+  position: absolute;
+
+  left: 12vh;
+  top: 20vh;
+  font-family: "DM Sans";
+}
+.login-heading1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #020202;
+}
+.login-heading2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.login-content span {
+  font-size: medium;
+}
+.user-input {
+  width: 30vw;
+  height: 5vh;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+}
+.login-btn {
+  width: 25vh;
+  height: 6vh;
+  border: none;
+  background: #fb5858;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.login-btn:active {
+  background-color: #df4b4b;
+}
+.signup-btn {
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}

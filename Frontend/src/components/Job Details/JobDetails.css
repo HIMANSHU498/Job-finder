@@ -1,0 +1,148 @@
+.jobdetails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  background-color: rgb(251, 230, 230);
+}
+.jobdetails-title-box {
+  width: 70vw;
+  height: 15vh;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 144.02%;
+  text-align: center;
+
+  color: #000000;
+}
+.jobdetails-box {
+  position: relative;
+  top: 20px;
+  width: 70vw;
+
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
+  padding: 30px 30px 30px 30px;
+}
+.jobdetail-jobtype {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 144.02%;
+
+  color: #999999;
+}
+.jobdetail-jobrole {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 144.02%;
+
+  color: #000000;
+}
+.jobdetail-location {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 144.02%;
+
+  color: #ed5353;
+}
+.jobdetail-edit-btn {
+  position: relative;
+  top: 10vh;
+  left: 30vw;
+  width: 101px;
+  height: 35px;
+
+  background: #ed5353;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 144.02%;
+  /* or 30px */
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+}
+.jobdetail-edit-btn:active {
+  background-color: #ac3737;
+}
+.jobdetail-stipendbox {
+  display: flex;
+  gap: 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+}
+.about-company {
+  margin: 20px 0px 20px 0;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 169.52%;
+
+  color: #000000;
+}
+.jobdetails-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 164.5%;
+
+  color: #595959;
+}
+.about-job {
+  margin: 20px 0px 20px 0;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 169.52%;
+
+  color: #000000;
+}
+.skills-required {
+  margin: 20px 0px 20px 0;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 169.52%;
+
+  color: #000000;
+}
+.skills-required-box {
+  display: flex;
+  gap: 1rem;
+}
+.skills-required-box span {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  background: #ffeeee;
+  border-radius: 21px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 169.52%;
+
+  color: #595959;
+}
