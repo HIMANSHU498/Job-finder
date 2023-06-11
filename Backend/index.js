@@ -2,7 +2,8 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-
+const User = require("./models/Users");
+const jobDetails = require("./models/JobDetails");
 dotenv.config();
 app.get("", (req, resp) => {
   resp.send("all good");
