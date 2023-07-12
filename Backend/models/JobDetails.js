@@ -9,6 +9,7 @@ let jobSchema = new mongoose.Schema({
   location: String,
   jobDescription: String,
   aboutCompany: String,
-  skillsRequired: String,
+  recruiterName: String,
+  skillsRequired: [String],
 });
 module.exports = mongoose.model("jobDetails", jobSchema);
